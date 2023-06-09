@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { EmpeladoHijoComponent } from './empelado-hijo/empelado-hijo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EmpeladoHijoComponent
   ],
   imports: [
     BrowserModule,
