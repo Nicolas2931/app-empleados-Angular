@@ -9,5 +9,8 @@ import { Empleado } from '../empleado.model';
 export class EmpeladoHijoComponent {
     @Input() empleadoDeLista:Empleado;
     @Input() indice:number;
-
+    arrayCaracteristicas=[''];
+    agregarCaracteristica(nuevaCaracteristica:string){
+      this.arrayCaracteristicas.push(nuevaCaracteristica);
+    }
 }
